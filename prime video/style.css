@@ -1,0 +1,221 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_TanviTheGreat/35182755-0e16-499a-bd88-697e1419737c._UR3840,1440_SX1080_FMavif_PQ65_.jpeg");
+    background-size: cover;
+    
+}
+
+
+.display-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: start;
+}
+.align-items-end{
+    align-items: end;
+}
+nav{
+    width: 1800px;
+    background-color: black;
+}
+
+
+.join-btn{
+    background-color: rgb(57, 57, 176);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left-nav  img{
+      width: 110px;
+      margin-right: 20px;
+}
+nav a{
+    color: white; 
+    text-decoration: none;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+}
+.sub{
+    margin-left: 20px;
+}
+.join-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 80px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background-color 0.5s ease;
+    margin-left: 20px;
+}
+.join-btn:hover{
+    background-color: blue;
+    box-shadow: blue 0px 3px 20px;
+}
+.ri-account-circle-line{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.ri-account-circle-line:hover{
+    background-color: white;
+    color: black;
+}
+
+.prime-sec{
+    width: 100px;
+   margin-left: 20px;
+}
+.logo-sec{
+    width: 350px;
+    margin-left: 20px;
+}
+.text-sec{
+    color: white;
+    margin-left: 20px;
+    width: 1100px;
+}
+.joinprime-btn{
+    background-color: darkgray;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.plus-btn{
+    background-color: darkgray;
+    color: black;
+    border-radius: 50px;    
+}
+.info-btn{
+    background-color: darkgray;
+    color: black;
+    border-radius: 50px;
+}
+.watch-sec{
+    color: white;
+    margin-left: 20px;
+}
+.watch-sec i{
+    color: goldenrod;
+}
+.move-box{
+    display: flex; 
+}
+.move-box img{
+    height: 240px;
+    transition:transform 0.5s ease ;
+    margin: 0px 10px;
+}
+.move-box1:hover{
+    transform: scale(1.1);
+}
+.move-box2:hover{
+    transform: scale(1.1);
+}
+.move-box3:hover{
+    transform: scale(1.1);
+}
+.move-box4:hover{
+    transform: scale(1.1);
+}
+.move--box{
+    display: flex;
+}
+.move--box img{
+    height: 240px;
+    transition:transform 0.5s ease ;
+    margin: 0px 10px; 
+}
+.move--box1:hover{
+    transform: scale(1.1);
+}
+.move--box2:hover{
+    transform: scale(1.1);
+}
+.move--box3:hover{
+    transform: scale(1.1);
+}
+.move--box4:hover{
+    transform: scale(1.1);
+}
+
+.movebox{
+    position: relative;
+   
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+.movebox h1{
+    position: absolute;
+    left: 40px;
+    font-size: 150px;
+    font-weight: bolder;
+}
+.movebox img{
+  
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    border-radius: 10px;
+    box-shadow: -20px 10px 30px black;
+    transition: transform 0.5s ease;
+}
+ .movebox img:hover{
+    transform: scale(1.1)
+ }   
+
+.move-list{
+    display: flex;
+    overflow: auto;
+    stroke-width: none;
+    scroll-behavior: smooth;
+}

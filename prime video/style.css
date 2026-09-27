@@ -187,17 +187,18 @@ nav a:hover{
 
 .top-10{
     color: white;
+}
       
 .move-box-1{
+
     color: white;
-    height: 200px;
+    height: 240px;
     width: 600px;
     position: relative;
     display: flex;
-    align-items: center;
-   
-   
-}
+    align-items: center;  
+     transition:transform 0.5s ease ;
+
 }
 .move-box-1:hover{
     transform: scale(1.1);
@@ -228,4 +229,41 @@ nav a:hover{
     overflow: auto;
     stroke-width: none;
     scroll-behavior: smooth;
+}
+.language-box{
+  position: absolute;
+  Height: 420px;
+  font-weight: 600;
+  width: 600px;
+  top: 55px;
+    opacity: 0;
+  right: 0;
+  background-color: rgb(43, 42, 42);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  justify-items:center;
+  border-radius: 8px;
+  visibility: hidden;
+  
+}
+.language-dropdown{
+  position: relative;
+}
+.language-box span{
+  padding: 8px 15px;
+  border-radius: 6px;
+
+}
+.language-box span:hover{
+  background-color: white;
+  color: rgb(0, 0, 9);
+}
+.language-dropdown:hover .language-box{
+  visibility:visible;
+  opacity: 1;
+}
+.right-nav{
+    display: flex;
 }

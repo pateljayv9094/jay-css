@@ -185,23 +185,23 @@ nav a:hover{
     transform: scale(1.1);
 }
 
-.movebox----{
+.move---box{
     position: relative;
-   
+    display: flex;
     width: 400px;
     height: 250px;
-    display: flex;
+   
     align-items: center;
     margin: 0px 10px;
 }
-.movebox---- h1{
+.move---box h1{
     position: absolute;
     left: 40px;
     font-size: 150px;
     font-weight: bolder;
 }
-.movebox---- img{
-  
+.move---box img{
+      display: flex;
     height: 200px;
     position: absolute;
     left: 100px;
@@ -210,19 +210,16 @@ nav a:hover{
     transition: transform 0.5s ease;
 }
  
-movebox----1:hover{
+.move--box1:hover{
     transform: scale(1.1);
 }
-movebox----2:hover{
+.move--box2:hover{
     transform: scale(1.1);
 }
-movebox----3:hover{
+.move--box3:hover{
     transform: scale(1.1);
 }
-movebox----4:hover{
-    transform: scale(1.1);
-}
-movebox----5:hover{
+.move--box4:hover{
     transform: scale(1.1);
 }
 

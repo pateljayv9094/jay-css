@@ -185,44 +185,44 @@ nav a:hover{
     transform: scale(1.1);
 }
 
-.move---box{
+.top-10{
+    color: white;
+      
+.move-box-1{
+    color: white;
+    height: 200px;
+    width: 600px;
     position: relative;
     display: flex;
-    width: 400px;
-    height: 250px;
-   
     align-items: center;
-    margin: 0px 10px;
+   
+   
 }
-.move---box h1{
+}
+.move-box-1:hover{
+    transform: scale(1.1);
+}
+.number{
+    height: 60px;
+    width: 60px;
+}
+.poster{
+    height: 170px;
+    width: 300px;
     position: absolute;
-    left: 40px;
-    font-size: 150px;
-    font-weight: bolder;
-}
-.move---box img{
-      display: flex;
-    height: 200px;
-    position: absolute;
-    left: 100px;
-    border-radius: 10px;
-    box-shadow: -20px 10px 30px black;
-    transition: transform 0.5s ease;
-}
- 
-.move--box1:hover{
-    transform: scale(1.1);
-}
-.move--box2:hover{
-    transform: scale(1.1);
-}
-.move--box3:hover{
-    transform: scale(1.1);
-}
-.move--box4:hover{
-    transform: scale(1.1);
+    left: 55px;
+    color: rgba(225,225, 225 ,0.25);
+    box-shadow: 20px 0 30px rgba(0, 0, 0 ,0.9),-40px 0 50px rgba(0, 0, 0 ,0.7);
+    border-radius: 6px;
+     
 }
 
+.main-box-move{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
 .move-list{
     display: flex;
     overflow: auto;

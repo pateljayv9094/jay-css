@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_SpiderNoir_S1_ReflectionColour/b7ba971a-3a22-4a38-ac90-a6cbfa68c43c._UR3840,1440_SX2160_FMavif_PQ60_.jpeg");
+  background-size: cover;
+}
+.main-movies-box-3{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 30px;
+   overflow-x: scroll;
+  scrollbar-width: none;
+}
+.poster-3{
+  height: 170px;
+  width: 280px;
+   margin-top: 20px;
+}
+.poster-3 img{
+  border-radius: 8px;
+}
+.poster-3:hover{
+  transform: scale(1.30);
+  transition: 0.5s;
+}
+.poster-2:hover{
+  transform: scale(1.25);
+  transition:0.5s;
+}
+.box-of-movies-all{
+  width:98%;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 20px; */
+  
+}
+.main-movies-box-2{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 30px;
+   overflow-x: scroll;
+  scrollbar-width: none;
+
+}
+.poster-2{
+  height: 170px;
+  width: 280px;
+  margin-top: 10px;
+
+}
+.poster-2 img{
+  border-radius: 8px;
+}
+
+
+
+.top-10{
+  color: white;
+}
+.movie-box-1{
+  color: white;
+  height:200px;
+  width: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.number-1{
+  height: 60px;
+  width: 60px;
+
+
+}
+.poster-1{
+  height: 170px;
+  width: 300px;
+  position: absolute;
+  left: 55px;
+  border-radius: 6px;
+  color: rgba(255,255,255,0.25);
+  box-shadow:-20px 0 30px rgba(0,0,0,0.9),
+        -40px 0 50px rgba(0,0,0,0.7);;
+       
+}
+.main-box-movies{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.poster-1:hover{
+  transform: scale(1.35);
+  transition:0.5s;
+}

@@ -1,6 +1,12 @@
+@font-face {
+  font-family: amazone ember;
+  src: url(./assets/fonts/Amazon\ Ember.ttf) format(truetype);
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 *{
     margin:0px;
     padding: 0px;
+     font-family: amazone ember;
 }
 
 body{
@@ -186,44 +192,44 @@ nav a:hover{
 }
 
 .top-10{
-    color: white;
+  color: white;
 }
-      
-.move-box-1{
+.movie-box-1{
+  color: white;
+  height:200px;
+  width: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.no-1{
+  height: 60px;
+  width: 60px;
 
-    color: white;
-    height: 240px;
-    width: 600px;
-    position: relative;
-    display: flex;
-    align-items: center;  
-     transition:transform 0.5s ease ;
 
 }
-.move-box-1:hover{
-    transform: scale(1.1);
+.move-1{
+  height: 170px;
+  width: 300px;
+  position: absolute;
+  left: 55px;
+  border-radius: 6px;
+  color: rgba(255,255,255,0.25);
+  box-shadow:-20px 0 30px rgba(0,0,0,0.9),
+        -40px 0 50px rgba(0,0,0,0.7);;
+       
 }
-.number{
-    height: 60px;
-    width: 60px;
+.main-box-movies{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scrollbar-width: none;
 }
-.poster{
-    height: 170px;
-    width: 300px;
-    position: absolute;
-    left: 55px;
-    color: rgba(225,225, 225 ,0.25);
-    box-shadow: 20px 0 30px rgba(0, 0, 0 ,0.9),-40px 0 50px rgba(0, 0, 0 ,0.7);
-    border-radius: 6px;
-     
+.poster-1:hover{
+  transform: scale(1.35);
+  transition:0.5s;
 }
 
-.main-box-move{
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    scrollbar-width: none;
-}
 .move-list{
     display: flex;
     overflow: auto;
